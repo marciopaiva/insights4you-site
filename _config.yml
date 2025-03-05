@@ -11,10 +11,12 @@ remote_theme        : marciopaiva/insights4you-core # Change to your theme repos
 open_new_tab        : false                         # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
-
-
 ### Plugins ###
 plugins:
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
   - jemoji
 
 
@@ -28,7 +30,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Marcio Paiva Barbosa
-  image             : logo.png                          # or use your avatar eg. https://avatars.githubusercontent.com/u/1004306?v=4
+  image             : assets/img/logo.png               # or use your avatar eg. https://avatars.githubusercontent.com/u/1004306?v=4
 # behance           : your_username
 # dribbble          : your_username
   email             : mpaivabarbosa@gmail.com
@@ -110,3 +112,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - assets/icons/site.webmanifest
