@@ -5,20 +5,19 @@ description         : >-
                       use tabs over spaces
                       and never broke production.
 baseurl             : ""                            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : marciopaiva/insights4you-site # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-theme               : null                          # Change to your theme repository if you are using a fork
 remote_theme        : marciopaiva/insights4you-core # Change to your theme repository if you are using a fork
+theme               : insights4you-jekyll-theme     # Change to your theme repository if you are using a fork
 open_new_tab        : false                         # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
 plugins:
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
   - jemoji
 
+### GitHub Repositories ###
+github:
+  user: marciopaiva
+  token: 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
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -112,4 +111,3 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-  - assets/icons/site.webmanifest
