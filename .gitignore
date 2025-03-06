@@ -10,3 +10,4 @@ Gemfile.lock
 
 # Log Files
 *.log
+_config.yml.bak
